@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(133, 186, 247);
+            display: flex;
+            margin: 150px;
+        }
+        .login{
+            text-align:left;
+            display: inline-block;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        h2{
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>LOGIN</h2>
+        <form method="post" action="/auth">
+            <h4>Nombre de Usuario: <input type="text" name="text"></h4>
+            <h4>Contraseña:<input type="password" name="password"></h4>
+            <input type="submit" value="Iniciar Sesion">
+        </form>
+    </div>
+   
+</body>
+</html>
